@@ -6,11 +6,11 @@
     "For3D": false,
     "HTile": false,
     "VTile": false,
-    "bbox_bottom": 63,
-    "bbox_left": 0,
-    "bbox_right": 63,
-    "bbox_top": 0,
-    "bboxmode": 0,
+    "bbox_bottom": 127,
+    "bbox_left": 41,
+    "bbox_right": 81,
+    "bbox_top": 12,
+    "bboxmode": 2,
     "colkind": 1,
     "coltolerance": 0,
     "edgeFiltering": false,
@@ -29,27 +29,45 @@
             },
             "images": [
                 {
-                    "id": "1bb323ab-8c0c-4cfa-8cd3-73d60c4b42c3",
+                    "id": "ae7c31fd-4736-4465-a557-265f942d2242",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
                     "FrameId": "beb6e64a-7f56-431e-a1cb-c93dc7dc0e99",
-                    "LayerId": "fd6aca0c-4849-4bee-b11c-f03b1e315c97"
+                    "LayerId": "1dc5b00a-d0e7-438c-abc3-b35cbb94ef04"
+                },
+                {
+                    "id": "87572780-8092-4ff7-93ed-9667eb829d8f",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "beb6e64a-7f56-431e-a1cb-c93dc7dc0e99",
+                    "LayerId": "33b5e3bb-95a9-4967-b584-90a7c31a15f1"
                 }
             ]
         }
     ],
     "gridX": 0,
     "gridY": 0,
-    "height": 64,
+    "height": 128,
     "layers": [
         {
-            "id": "fd6aca0c-4849-4bee-b11c-f03b1e315c97",
+            "id": "1dc5b00a-d0e7-438c-abc3-b35cbb94ef04",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
             "SpriteId": "3be99a8d-ea7a-483b-8aa1-a5cd95b7da8c",
             "blendMode": 0,
             "isLocked": false,
-            "name": "default",
+            "name": "Layer 1 (2)",
+            "opacity": 100,
+            "visible": true
+        },
+        {
+            "id": "33b5e3bb-95a9-4967-b584-90a7c31a15f1",
+            "modelName": "GMImageLayer",
+            "mvc": "1.0",
+            "SpriteId": "3be99a8d-ea7a-483b-8aa1-a5cd95b7da8c",
+            "blendMode": 0,
+            "isLocked": false,
+            "name": "color",
             "opacity": 100,
             "visible": true
         }
@@ -64,7 +82,7 @@
     "swfPrecision": 2.525,
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "type": 0,
-    "width": 64,
-    "xorig": 32,
-    "yorig": 32
+    "width": 128,
+    "xorig": 64,
+    "yorig": 64
 }
